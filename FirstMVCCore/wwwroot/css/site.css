@@ -1,0 +1,59 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+img {
+    box-shadow: 0px 0px 20px 3px grey;
+    margin-bottom: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+#totalPriceText {
+    display: none;
+}
+
+#totalPriceNum {
+    margin-top: 8px;
+    display: none;
+}
+
+button {
+    border-radius: 16px;
+    display: inline-block;
+}
+
+form {
+    margin-top: 64px;
+    box-shadow: 0px 0px 20px 3px grey;
+    width: 50%;
+    padding: 24px;
+    display: inline-block;
+}
+
+form > * {
+    margin-top: 16px;
+}
+
+h3 {
+    font-size: 20px;
+}

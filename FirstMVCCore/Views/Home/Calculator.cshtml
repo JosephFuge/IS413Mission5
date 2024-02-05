@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Services Calculator";
+}
+
+<div class="text-center">
+    <h1>@ViewData["Title"]</h1>
+
+    <h3>Use the calculator below to determine how much our language lesson services will cost.</h3>
+
+    <form id="calculator">
+        <label for="numHours">Hours Needed</label>
+        <input type="text" id="numHours" name="numHours" />
+        <br />
+        <p id="hoursError"></p>
+        <label>Hourly Rate:</label>
+        <input type="text" id="hourlyPrice" value="25.00" disabled/>
+        <br />
+        <label id="totalPriceText">Total price:</label>
+        <input type="text" disabled id="totalPriceNum"></input>
+        <br/>
+        <br/>
+        <button type="button" onclick="calcPrice();">Calculate Price</button>
+    </form>
+</div>
